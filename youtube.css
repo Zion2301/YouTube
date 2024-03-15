@@ -20,6 +20,7 @@
      overflow-y: scroll;
     /* width: 100%;  */
     /* position: fixed; */
+    position: relative;
     background-color: white;
 }
 
@@ -313,6 +314,8 @@
         border-bottom: none;
         border-top: 1px solid black;
         border-color: 1px solid black;
+        position: sticky;
+        bottom: 0;
      }
 
      .menu {
