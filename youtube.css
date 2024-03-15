@@ -19,7 +19,7 @@
     height: 100%;
      overflow-y: scroll;
     /* width: 100%;  */
-    position: fixed;
+    /* position: fixed; */
     background-color: white;
 }
 
@@ -117,7 +117,7 @@
 .right-side {
     width: 90%;
     position: relative;
-    left: 190px;
+    left: 0px;
     overflow-x: hidden;
 }
 
@@ -290,5 +290,40 @@
 
      .search {
         width: 100px;
+     }
+
+     .container {
+        flex-direction: column-reverse;
+     }
+
+     .right-side {
+        width: 100%;
+     }
+
+     .fes-div {
+        width: 100%;
+     }
+
+     .house-2 {
+        display: none;
+     }
+
+     .home {
+        display: flex;
+        border-bottom: none;
+        border-top: 1px solid black;
+        border-color: 1px solid black;
+     }
+
+     .menu {
+        display: none;
+     }
+
+     .gone {
+        display: none;
+     }
+     .home {
+        justify-content: space-between;
+        border-bottom: 1px solid black;
      }
 }
